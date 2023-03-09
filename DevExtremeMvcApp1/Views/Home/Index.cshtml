@@ -20,6 +20,7 @@
     //.Paging(p => p.PageSize(10))
     .LoadPanel(loadPanel => loadPanel.Enabled(false))
     .Scrolling(scrolling => scrolling.Mode(GridScrollingMode.Infinite))
+    .AllowColumnResizing(true)
     .FilterRow(f => f.Visible(true))
     .HeaderFilter(f => f.Visible(true))
     .GroupPanel(p => p.Visible(true))

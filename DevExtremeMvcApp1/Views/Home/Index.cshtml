@@ -15,7 +15,7 @@
         columns.AddFor(m => m.OrderDate);
         columns.AddFor(m => m.CustomerName);
         columns.AddFor(m => m.ShipCountry);
-        columns.AddFor(m => m.ShipCity);
+        columns.AddFor(m => m.ShipCity).Caption("City for Delivery");
     })
     //.Paging(p => p.PageSize(10))
     .LoadPanel(loadPanel => loadPanel.Enabled(false))

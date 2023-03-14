@@ -186,6 +186,8 @@
     <Content Include="Scripts\globalize\message.min.js" />
     <Content Include="Scripts\globalize\number.js" />
     <Content Include="Scripts\globalize\number.min.js" />
+    <None Include="Properties\PublishProfiles\dxmvcdemo - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\dxmvcdemo - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.5.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.5.1.js" />
     <Content Include="Scripts\jquery-3.5.1.min.js" />
